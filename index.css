@@ -1,0 +1,54 @@
+@font-face{
+ src: url(CursedTimerUlil-Aznm.ttf);
+ font-family: CursedTimerUlil-Aznm;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #ffff;
+    font-size: 40px;
+
+}
+button {
+    background: none;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    width: 45px;
+    height:45px;
+    border-radius:5px;
+    font-size: 20px;
+}
+#home-pts {
+    background: black;
+    width: 155px;
+    height: 120px;
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 90px;
+    color: #F94F6D;
+        border-radius: 5px;
+
+}
+#guest-pts {
+    background: black;
+    width: 155px;
+    height: 120px;
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 90px;
+    color: #F94F6D;
+    border-radius: 5px;
+
+    }
+    
+footer{
+    color: #9AABD8;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+    text-align: center;
+}
